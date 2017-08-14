@@ -49,7 +49,7 @@
 }
 /* line 41, ../scss/_header_footer.scss */
 .navbar-header #cover {
-  width: 20%;
+  width: 30%;
   float: left;
   margin-right: 20px;
 }
@@ -59,20 +59,18 @@
   z-index: -1;
   top: 40px;
 }
-/* line 50, ../scss/_header_footer.scss */
-.navbar-header .subscribe .info {
-  float: left;
-}
-/* line 52, ../scss/_header_footer.scss */
+/* line 51, ../scss/_header_footer.scss */
 .navbar-header .subscribe .info p {
   font-family: "adobe-caslon-pro",serif;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 5px;
   letter-spacing: normal;
   color: #666;
   white-space: pre-line;
+  display: block;
+  text-transform: none;
 }
-/* line 60, ../scss/_header_footer.scss */
+/* line 61, ../scss/_header_footer.scss */
 .navbar-header .subscribe .info a {
   font-family: Nobel,sans-serif;
   font-size: 10px;
@@ -85,27 +83,32 @@
   border: 1px solid #C00000;
   color: #C00000;
 }
-/* line 71, ../scss/_header_footer.scss */
+/* line 72, ../scss/_header_footer.scss */
 .navbar-header .subscribe .info a:hover {
   background: #C00000;
   color: white;
 }
 
-/* line 82, ../scss/_header_footer.scss */
+/* line 83, ../scss/_header_footer.scss */
 .sticky {
   position: fixed;
   top: 0;
 }
 
-/* line 86, ../scss/_header_footer.scss */
+/* line 87, ../scss/_header_footer.scss */
 #navbar {
   z-index: 1111;
   width: 100%;
 }
 
-/* line 90, ../scss/_header_footer.scss */
+/* line 91, ../scss/_header_footer.scss */
 #logoSm {
   display: none;
+}
+
+/* line 94, ../scss/_header_footer.scss */
+#vogue-logo {
+  padding: 30px 0 20px;
 }
 
 /* line 1, ../scss/_global.scss */
