@@ -219,7 +219,7 @@ p {
 
 /* line 31, ../scss/_homepage.scss */
 #hero2 {
-  height: 800px;
+  height: 230px;
   width: 100%;
   color: #fff;
   background: url("../img/landscape2.jpeg") no-repeat 100%;
@@ -275,6 +275,11 @@ p {
   }
 
   /* line 34, ../scss/_mobile.scss */
+  #hero2 {
+    height: 800px;
+  }
+
+  /* line 37, ../scss/_mobile.scss */
   h1 {
     font-size: 35px;
   }
