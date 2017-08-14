@@ -8,17 +8,19 @@ $( document ).ready(function() {
     }
   );
 });
-
-
+var windowWidth = $(window).width();
 var yourNavigation = $("#navbar");
     yourHeader = $('.upperHeader').height();
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > yourHeader ) {
-    yourNavigation.addClass('sticky');
-    $('#logoSm').fadeIn("slow");
-  } else {
-    yourNavigation.removeClass('sticky');
-    $('#logoSm').fadeOut();
+  if(windowWidth > 768){
+    if( $(this).scrollTop() > yourHeader ) {
+      yourNavigation.addClass('sticky');
+      $('#logoSm').fadeIn("slow");
+    } else {
+      yourNavigation.removeClass('sticky');
+      $('#logoSm').fadeOut();
+    }
   }
+
 });

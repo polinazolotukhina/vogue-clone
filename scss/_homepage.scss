@@ -1,9 +1,6 @@
 
 
-.dotted {
-  border-bottom: 1px dotted #8c8b8b;
-  padding-top:20px;
-}
+
 .fading{
   opacity: 0.8;
 }
@@ -16,6 +13,7 @@
 }
 
 .wrap-fade{
+  margin-bottom: 50px;
   p:last-child{
       border-left: 1px solid #e7e7e7;
       padding:8px 10px;
@@ -24,7 +22,7 @@
 }
 
 #hero{
-  height: 800px;
+  height: 230px;
    width: 100%;
    color: #fff;
    background: url("../img/landscape.jpeg") no-repeat 100%;
@@ -41,8 +39,8 @@
   position: relative;
   .info-article{
     position: absolute;
-    top: -90px;
-    padding: 50px 50px 0;
+    top: -35px;
+    padding: 20px 20px;
     background: white;
     margin: 0;
     h1{

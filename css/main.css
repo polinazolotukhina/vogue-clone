@@ -118,7 +118,7 @@ img {
 
 /* line 4, ../scss/_global.scss */
 h1 {
-  font-size: 35px;
+  font-size: 25px;
   text-align: center;
   color: #111;
   font-family: "ITC Caslon",Georgia,serif;
@@ -131,7 +131,7 @@ h1 {
   margin: 0;
 }
 
-/* line 17, ../scss/_global.scss */
+/* line 18, ../scss/_global.scss */
 h4 {
   font-size: 25px;
   font-family: Nobel,sans-serif;
@@ -142,17 +142,17 @@ h4 {
   font-weight: 700;
 }
 
-/* line 27, ../scss/_global.scss */
+/* line 28, ../scss/_global.scss */
 section:first-of-type {
   margin-top: 60px;
 }
 
-/* line 30, ../scss/_global.scss */
+/* line 31, ../scss/_global.scss */
 section {
   margin-top: 180px;
 }
 
-/* line 33, ../scss/_global.scss */
+/* line 34, ../scss/_global.scss */
 h3 {
   margin: 20px 0;
   font-family: "ITC Caslon",Georgia,serif;
@@ -161,7 +161,7 @@ h3 {
   margin-bottom: 15px;
 }
 
-/* line 40, ../scss/_global.scss */
+/* line 41, ../scss/_global.scss */
 .cursour, span {
   color: #666;
   font-family: "adobe-caslon-pro",serif;
@@ -172,7 +172,7 @@ h3 {
   margin-right: 2px;
 }
 
-/* line 49, ../scss/_global.scss */
+/* line 50, ../scss/_global.scss */
 .signiture, p {
   color: #111;
   font-family: Nobel,sans-serif;
@@ -181,50 +181,43 @@ h3 {
   text-transform: uppercase;
 }
 
-/* line 60, ../scss/_global.scss */
+/* line 61, ../scss/_global.scss */
 p {
   display: inline;
 }
 
-/* line 64, ../scss/_global.scss */
-.section {
-  margin-top: 60px;
-}
-
-/* line 3, ../scss/_homepage.scss */
-.dotted {
-  border-bottom: 1px dotted #8c8b8b;
-  padding-top: 20px;
-}
-
-/* line 7, ../scss/_homepage.scss */
+/* line 4, ../scss/_homepage.scss */
 .fading {
   opacity: 0.8;
 }
 
-/* line 11, ../scss/_homepage.scss */
+/* line 8, ../scss/_homepage.scss */
 .stories a {
   text-decoration: none;
   color: black;
 }
 
-/* line 19, ../scss/_homepage.scss */
+/* line 15, ../scss/_homepage.scss */
+.wrap-fade {
+  margin-bottom: 50px;
+}
+/* line 17, ../scss/_homepage.scss */
 .wrap-fade p:last-child {
   border-left: 1px solid #e7e7e7;
   padding: 8px 10px;
   margin-left: 10px;
 }
 
-/* line 26, ../scss/_homepage.scss */
+/* line 24, ../scss/_homepage.scss */
 #hero {
-  height: 800px;
+  height: 230px;
   width: 100%;
   color: #fff;
   background: url("../img/landscape.jpeg") no-repeat 100%;
   background-size: cover;
 }
 
-/* line 33, ../scss/_homepage.scss */
+/* line 31, ../scss/_homepage.scss */
 #hero2 {
   height: 800px;
   width: 100%;
@@ -233,30 +226,57 @@ p {
   background-size: cover;
 }
 
-/* line 40, ../scss/_homepage.scss */
+/* line 38, ../scss/_homepage.scss */
 .feauturedArticle {
   position: relative;
 }
-/* line 42, ../scss/_homepage.scss */
+/* line 40, ../scss/_homepage.scss */
 .feauturedArticle .info-article {
   position: absolute;
-  top: -90px;
-  padding: 50px 50px 0;
+  top: -35px;
+  padding: 20px 20px;
   background: white;
   margin: 0;
 }
-/* line 48, ../scss/_homepage.scss */
+/* line 46, ../scss/_homepage.scss */
 .feauturedArticle .info-article h1 {
   margin-bottom: 20px;
 }
-/* line 51, ../scss/_homepage.scss */
+/* line 49, ../scss/_homepage.scss */
 .feauturedArticle .info-article p:last-child {
   border-left: 1px solid #e7e7e7;
   padding: 8px 10px;
   margin-left: 10px;
 }
 
-/* line 15, ../scss/main.scss */
-img {
-  max-width: 100%;
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* line 15, ../scss/_mobile.scss */
+  .dotted {
+    border-bottom: 1px dotted #8c8b8b;
+    padding-top: 20px;
+  }
+
+  /* line 20, ../scss/_mobile.scss */
+  .feauturedArticle .info-article {
+    position: absolute;
+    top: -90px;
+    padding: 40px;
+  }
 }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* line 31, ../scss/_mobile.scss */
+  #hero {
+    height: 800px;
+  }
+
+  /* line 34, ../scss/_mobile.scss */
+  h1 {
+    font-size: 35px;
+  }
+}
+/* Large Devices, Wide Screens */

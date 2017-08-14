@@ -1,0 +1,42 @@
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      .dotted {
+        border-bottom: 1px dotted #8c8b8b;
+        padding-top:20px;
+      }
+      .feauturedArticle {
+        .info-article{
+          position: absolute;
+          top:-90px;
+          padding:40px;
+        }
+      }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      #hero{
+        height: 800px;
+      }
+      h1{
+        font-size: 35px;
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
