@@ -249,18 +249,82 @@ p {
   margin-left: 10px;
 }
 
+@media (max-width: 768px) {
+  /* line 3, ../scss/_mobile.scss */
+  #logoSm {
+    display: none!important;
+  }
+
+  /* line 6, ../scss/_mobile.scss */
+  .navbar-header {
+    float: none;
+  }
+
+  /* line 9, ../scss/_mobile.scss */
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  /* line 12, ../scss/_mobile.scss */
+  .navbar-toggle {
+    display: block;
+  }
+
+  /* line 15, ../scss/_mobile.scss */
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* line 19, ../scss/_mobile.scss */
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  /* line 23, ../scss/_mobile.scss */
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  /* line 26, ../scss/_mobile.scss */
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+
+  /* line 30, ../scss/_mobile.scss */
+  .navbar-nav > li {
+    float: none;
+  }
+
+  /* line 33, ../scss/_mobile.scss */
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* line 37, ../scss/_mobile.scss */
+  .collapse.in {
+    display: block !important;
+  }
+}
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-  /* line 15, ../scss/_mobile.scss */
-  .dotted {
-    border-bottom: 1px dotted #8c8b8b;
-    padding-top: 20px;
+  /* line 60, ../scss/_mobile.scss */
+  #hero {
+    height: 500px;
   }
 
-  /* line 20, ../scss/_mobile.scss */
+  /* line 63, ../scss/_mobile.scss */
+  #hero2 {
+    height: 500px;
+  }
+
+  /* line 67, ../scss/_mobile.scss */
   .feauturedArticle .info-article {
     position: absolute;
     top: -90px;
@@ -269,17 +333,23 @@ p {
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-  /* line 31, ../scss/_mobile.scss */
+  /* line 78, ../scss/_mobile.scss */
+  .dotted {
+    border-bottom: 1px dotted #8c8b8b;
+    padding-top: 20px;
+  }
+
+  /* line 82, ../scss/_mobile.scss */
   #hero {
     height: 800px;
   }
 
-  /* line 34, ../scss/_mobile.scss */
+  /* line 85, ../scss/_mobile.scss */
   #hero2 {
     height: 800px;
   }
 
-  /* line 37, ../scss/_mobile.scss */
+  /* line 88, ../scss/_mobile.scss */
   h1 {
     font-size: 35px;
   }
