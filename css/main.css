@@ -117,6 +117,11 @@ img {
 }
 
 /* line 4, ../scss/_global.scss */
+.nopadding {
+  padding: 0!important;
+}
+
+/* line 7, ../scss/_global.scss */
 h1 {
   font-size: 25px;
   text-align: center;
@@ -131,7 +136,7 @@ h1 {
   margin: 0;
 }
 
-/* line 18, ../scss/_global.scss */
+/* line 21, ../scss/_global.scss */
 h4 {
   font-size: 25px;
   font-family: Nobel,sans-serif;
@@ -142,17 +147,17 @@ h4 {
   font-weight: 700;
 }
 
-/* line 28, ../scss/_global.scss */
+/* line 31, ../scss/_global.scss */
 section:first-of-type {
   margin-top: 60px;
 }
 
-/* line 31, ../scss/_global.scss */
+/* line 34, ../scss/_global.scss */
 section {
   margin-top: 180px;
 }
 
-/* line 34, ../scss/_global.scss */
+/* line 37, ../scss/_global.scss */
 h3 {
   margin: 20px 0;
   font-family: "ITC Caslon",Georgia,serif;
@@ -161,7 +166,7 @@ h3 {
   margin-bottom: 15px;
 }
 
-/* line 41, ../scss/_global.scss */
+/* line 44, ../scss/_global.scss */
 .cursour, span {
   color: #666;
   font-family: "adobe-caslon-pro",serif;
@@ -172,7 +177,7 @@ h3 {
   margin-right: 2px;
 }
 
-/* line 50, ../scss/_global.scss */
+/* line 53, ../scss/_global.scss */
 .signiture, p {
   color: #111;
   font-family: Nobel,sans-serif;
@@ -181,34 +186,65 @@ h3 {
   text-transform: uppercase;
 }
 
-/* line 61, ../scss/_global.scss */
+/* line 64, ../scss/_global.scss */
 p {
   display: inline;
 }
 
-/* line 4, ../scss/_homepage.scss */
+/* line 5, ../scss/_homepage.scss */
+#forPadding {
+  background: #F9F9F9;
+  padding: 20px 0;
+}
+
+/* line 9, ../scss/_homepage.scss */
+#divededArticle {
+  background: #F4F4F4;
+}
+/* line 11, ../scss/_homepage.scss */
+#divededArticle .articlePhoto {
+  height: 350px;
+  width: 100%;
+  background: url("../img/article.jpeg") no-repeat 100%;
+  background-size: cover;
+}
+/* line 18, ../scss/_homepage.scss */
+#divededArticle .articleText {
+  background: white;
+  padding: 100px 50px;
+}
+/* line 21, ../scss/_homepage.scss */
+#divededArticle .articleText p {
+  display: block;
+}
+/* line 25, ../scss/_homepage.scss */
+#divededArticle .article {
+  margin: 70px 0;
+}
+
+/* line 31, ../scss/_homepage.scss */
 .fading {
   opacity: 0.8;
 }
 
-/* line 8, ../scss/_homepage.scss */
+/* line 35, ../scss/_homepage.scss */
 .stories a {
   text-decoration: none;
   color: black;
 }
 
-/* line 15, ../scss/_homepage.scss */
+/* line 42, ../scss/_homepage.scss */
 .wrap-fade {
   margin-bottom: 50px;
 }
-/* line 17, ../scss/_homepage.scss */
+/* line 44, ../scss/_homepage.scss */
 .wrap-fade p:last-child {
   border-left: 1px solid #e7e7e7;
   padding: 8px 10px;
   margin-left: 10px;
 }
 
-/* line 24, ../scss/_homepage.scss */
+/* line 51, ../scss/_homepage.scss */
 #hero {
   height: 230px;
   width: 100%;
@@ -217,7 +253,7 @@ p {
   background-size: cover;
 }
 
-/* line 31, ../scss/_homepage.scss */
+/* line 58, ../scss/_homepage.scss */
 #hero2 {
   height: 230px;
   width: 100%;
@@ -226,23 +262,24 @@ p {
   background-size: cover;
 }
 
-/* line 38, ../scss/_homepage.scss */
+/* line 65, ../scss/_homepage.scss */
 .feauturedArticle {
   position: relative;
 }
-/* line 40, ../scss/_homepage.scss */
+/* line 67, ../scss/_homepage.scss */
 .feauturedArticle .info-article {
   position: absolute;
   top: -35px;
   padding: 20px 20px;
   background: white;
   margin: 0;
+  width: 100%;
 }
-/* line 46, ../scss/_homepage.scss */
+/* line 74, ../scss/_homepage.scss */
 .feauturedArticle .info-article h1 {
   margin-bottom: 20px;
 }
-/* line 49, ../scss/_homepage.scss */
+/* line 77, ../scss/_homepage.scss */
 .feauturedArticle .info-article p:last-child {
   border-left: 1px solid #e7e7e7;
   padding: 8px 10px;
